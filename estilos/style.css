@@ -64,12 +64,34 @@ div#formulario > p {
 }
 
 form > div.campo {
+    border: 2px solid #5f2c82;
     background-color: #5f2c82;
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+div.campo > span {
+    color: white;
+    padding: 5px;
+    width: 40px;
+}
+
+div.campo > input {
+    background-color: #49a09d;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    transform: translate(24%, -122%);
+    height: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    border: none;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {

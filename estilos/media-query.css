@@ -8,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -20,6 +21,11 @@
         float: right;
         width: 70%;
     }
+
+    div.campo > input {
+        transform: translate(9%, -122%);
+        width: calc(100% - 44px);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -30,6 +36,7 @@
 
     section#login {
         width: 950px;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -45,6 +52,10 @@
 
     div#formulario > h1 {
         font-size: 2em;
+    }
+
+    div.campo > input {
+        transform: translate(11%, -122%);
     }
 
     div#formulario > p {
